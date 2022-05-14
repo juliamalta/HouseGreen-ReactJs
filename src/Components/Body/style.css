@@ -16,7 +16,7 @@
   flex-direction: column;
  
   padding: 100px;
-  margin: 190px;
+  margin: 180px;
 }
 
 .container h1 {
@@ -64,6 +64,7 @@
   background: #ffcb47;
   height: 60px;
   cursor: pointer;
+  
  
 }
 

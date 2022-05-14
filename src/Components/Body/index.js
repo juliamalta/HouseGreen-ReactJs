@@ -20,7 +20,7 @@ function Main() {
     event.preventDefault();
     console.log("enviando dados" + datos.UserEmail);
     toast.success(
-      "Obrigado pela sua assinatura, você receberá nossas novidades no e-mail "
+      "Obrigado pela sua assinatura, você receberá nossas novidades no e-mail " +datos.UserEmail
     );
   };
 
@@ -39,6 +39,7 @@ function Main() {
         </p>
 
         <form onSubmit={enviarDatos}>
+       
           <input
             type="text"
             name="UserEmail"
@@ -46,13 +47,13 @@ function Main() {
             onChange={handleInputChange}
             className="input1"
           />
-        
+       
           <button type="submit" className="botao">
             Assinar newsletter
           </button>
-          
-        </form>
         
+        </form>
+    
       </div>
 
       <div className="img">
