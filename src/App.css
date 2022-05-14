@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Hurricane&family=IBM+Plex+Sans+Arabic:wght@300&family=Inter:wght@500&family=Montserrat:wght@100;400&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Ramaraja&family=Righteous&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Sarala&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/123.png"), url("./images/bg.jpg");
+  background-repeat: no-repeat, repeat-x;
+  background-position: right top;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .App {
   text-align: center;
 }

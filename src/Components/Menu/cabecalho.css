@@ -1,56 +1,34 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat&family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Hurricane&family=IBM+Plex+Sans+Arabic:wght@300&family=Inter:wght@500&family=Montserrat:wght@100;400&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Ramaraja&family=Righteous&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Sarala&display=swap');
-
-
-
-body{
-    background-image: url('./123.png'),
-                       url('./bg.jpg');
-    background-repeat: no-repeat, 
-                          repeat-x;
-        background-position: right top;
-}
-
-
 .cabecalho {
-    display:flex;
-    justify-content: space-around;
-    flex-direction: row;
-
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
-
-.principal{
-    padding: 14px;
-    margin:12px;
-    display:flex;
-    gap:29px;
-    font-family: 'Montserrat', sans-serif;
-    font-size:16px;
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-color:#202020;
-
+.principal {
+  padding: 14px;
+  margin: 12px;
+  display: flex;
+  gap: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  color: #202020;
 }
-
 
 .Logo {
-    color: #213E26;
-    opacity: 0.8;
-    font-family: 'Elsie Swash Caps';
+  color: #213e26;
+  opacity: 0.8;
+  font-family: "Elsie Swash Caps";
 }
 
-.img{
-    width: 30px;
-
+.img {
+  width: 30px;
 }
 
-
-.logo1{
-    display: flex;
-    flex-direction: row;
-    padding:10px;
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
